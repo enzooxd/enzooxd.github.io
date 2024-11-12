@@ -17,21 +17,21 @@ body {
 /* Container centralizado */
 .container {
   width: 90%;
-  max-width: 1200px; /* Corrigido para um tamanho de container mais adequado */
+  max-width: 1200px;
   margin: 0 auto;
 }
 
 /* Cabeçalho */
 header {
- background: linear-gradient(135deg, #2a3e9f, #0a3c59 70%, #fff 100%); /* Gradiente mais escuro */
-  padding: 10px 0; /* Ajuste na altura do cabeçalho */
+  background: linear-gradient(135deg, #2a3e9f, #0a3c59 70%, #fff 100%);
+  padding: 10px 0;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
   display: flex;
   justify-content: space-between;
   align-items: center;
   position: relative;
   z-index: 10;
-  border-bottom: 5px solid rgba(0, 0, 0, 0.1); /* Linha sutil para separar do conteúdo */
+  border-bottom: 5px solid rgba(0, 0, 0, 0.1);
 }
 
 /* Menu de ícones (Hamburguer) */
@@ -60,7 +60,7 @@ header .logo {
 }
 
 header .logo img {
-  width: 180px; /* Ajusta o tamanho da logo */
+  width: 180px;
   height: auto;
   transition: transform 0.3s ease-in-out;
 }
@@ -69,15 +69,15 @@ header .logo img {
 .search-bar {
   padding: 10px;
   font-size: 1rem;
-  border-radius: 10px; /* Bordas bem arredondadas */
+  border-radius: 10px;
   border: 1px solid #ccc;
   width: 250px;
   position: absolute;
   right: 30px;
   top: 50%;
   transform: translateY(-50%);
-  opacity: 0.5; /* Opacidade baixa */
-  background-color: rgba(255, 255, 255, 0.8); /* Fundo branco com opacidade */
+  opacity: 0.5;
+  background-color: rgba(255, 255, 255, 0.8);
   transition: width 0.3s ease-in-out, opacity 0.3s ease-in-out;
 }
 
@@ -85,7 +85,7 @@ header .logo img {
   width: 300px;
   outline: none;
   border-color: #36d1dc;
-  opacity: 1; /* Opacidade normal ao focar */
+  opacity: 1;
 }
 
 /* Navegação */
@@ -117,7 +117,7 @@ nav ul li a {
 
 nav ul li a:hover {
   background-color: #fff;
-  color: #333; /* Texto escuro no hover */
+  color: #333;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
   transform: translateY(-5px);
 }
@@ -125,7 +125,7 @@ nav ul li a:hover {
 /* Área Principal */
 main {
   padding: 60px 0;
-  background: #f7f7f7; /* Fundo claro e clean */
+  background: #f7f7f7;
 }
 
 main h2 {
@@ -140,7 +140,7 @@ main h2 {
 
 main h2 img {
   display: block;
-  margin: 0 auto; /* Centraliza a imagem */
+  margin: 0 auto;
 }
 
 section p {
@@ -158,24 +158,24 @@ section p {
 }
 
 .card {
-  background-color: #fff; /* Cards brancos */
+  background-color: #fff;
   padding: 30px;
   border-radius: 10px;
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1); /* Sombra leve */
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15), 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra dupla mais intensa */
   width: 30%;
   transition: all 0.3s ease-in-out;
 }
 
 .card:hover {
   transform: scale(1.05);
-  box-shadow: 0 6px 30px rgba(0, 0, 0, 0.15); /* Sombra mais intensa no hover */
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.2), 0 6px 15px rgba(0, 0, 0, 0.15); /* Sombra mais pronunciada no hover */
 }
 
 .card h3 {
   color: #333;
   font-size: 1.8rem;
   margin-bottom: 20px;
-  font-family: 'Orbitron', sans-serif; /* Fonte futurista */
+  font-family: 'Orbitron', sans-serif;
 }
 
 .card p {
